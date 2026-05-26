@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentine's Day</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="hedlinecontainer">
+      <div id="shine">
+        <span>💞</span><span>💞</span><span>💞</span><span>💞</span><span>💞</span>
+        <span> </span>
+        <span>💞</span><span>💞</span><span>💞</span><span>💞</span><span>💞</span
+        ><span>💞</span><span>💞</span><span>💞</span><span>💞</span><span>💞</span
+        ><span>💞</span>
+        <span> </span>
+        <span>💞</span><span>💞</span><span>💞</span><span>💞</span>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <img src="../img/1.jpg" alt="a women inside a car" />
+      <img src="../img/5.jpg" alt="a lovely kiss in the night" />
+      <img src="../img/4.jpg" alt="a girl" />
+      <img src="../img/3.jpg" alt="a girl in the forest" />
+      <img src="../img/2.jpg" alt="a baby" />
+    </div>
+
+    <div id="actionContainer">
+      <button id="playButton"><img src="../img/play.png" alt="" /></button>
+      <p id="playText" class="text-gif">VIC PERSI</p>
+      <img
+        id="giftBox"
+        src="../img/gif.png"
+        alt="Gift Box"
+        style="display: none"
+      />
+      <p id="giftText" class="text-gif" style="display: none">VicPeri</p>
+    </div>
+    <div class="overlay" id="videoOverlay">
+      <span class="close-btn" onclick="closeVideo()">&times;</span>
+      <video id="videoPlayer" controls>
+        <source src="../img/valentine.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div id="heart-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
